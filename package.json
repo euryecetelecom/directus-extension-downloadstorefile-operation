@@ -41,9 +41,6 @@
 		"type": "git",
 		"url": "git+https://github.com/euryecetelecom/directus-extension-operation-download-store-file.git"
 	},
-	"engines": {
-		"node": ">=18.17.0"
-	},
 	"release-it": {
 		"github": {
 			"release": true
