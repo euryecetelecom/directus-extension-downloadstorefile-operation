@@ -50,6 +50,11 @@ export default defineOperationApi<Options>({
 			schema: schema,
 			accountability: customAccountability,
 		});
+
+		let customStorage = 'local';
+		if(storage && storage != ''){
+			customStorage = storage;
+		}
 		let primaryKey;
 		try {
 			await axios({
@@ -61,7 +66,8 @@ export default defineOperationApi<Options>({
 				const metaData = {
 					filename_download: fileName,
 					folder: folder,
-					storage: storage ?? 'local',
+					storage: customStorage,
+					title: fileName,
 					type: response.headers['content-type'],
 				};
 				primaryKey = await filesService.uploadOne(response.data, metaData);

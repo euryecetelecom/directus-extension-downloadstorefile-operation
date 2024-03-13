@@ -5,13 +5,13 @@ export default defineOperationApp({
 	name: 'Download and store file',
 	icon: 'box',
 	description: 'Download and store a file from an external URL',
-	overview: ({ url, filename }) => [
+	overview: ({ url, fileName }) => [
 		{
 			label: '$t:operations.request.url',
 			text: url,
 		}, {
-			label: 'Filename',
-			text: filename,
+			label: 'File name',
+			text: fileName,
 		},
 	],
 	options: [
