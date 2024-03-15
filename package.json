@@ -4,6 +4,7 @@
 	"icon": "extension",
 	"license": "MIT",
 	"version": "1.0.0",
+	"author": "Euryece Telecom",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -41,6 +42,7 @@
 		"type": "git",
 		"url": "git+https://github.com/euryecetelecom/directus-extension-operation-download-store-file.git"
 	},
+	"homepage": "https://github.com/euryecetelecom/directus-extension-operation-download-store-file",
 	"release-it": {
 		"github": {
 			"release": true
