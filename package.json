@@ -1,5 +1,5 @@
 {
-	"name": "directus-extension-operation-download-store-file",
+	"name": "test-euryecetelecom-package",
 	"description": "Directus extension used to add a download and store file operation to flows",
 	"icon": "extension",
 	"license": "MIT",
