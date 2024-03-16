@@ -3,7 +3,7 @@
 	"description": "Directus extension used to add a download and store file operation to flows",
 	"icon": "extension",
 	"license": "MIT",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Euryece Telecom",
 	"keywords": [
 		"directus",
@@ -42,14 +42,6 @@
 		"url": "git+https://github.com/euryecetelecom/directus-extension-downloadstorefile-operation.git"
 	},
 	"homepage": "https://github.com/euryecetelecom/directus-extension-downloadstorefile-operation",
-	"release-it": {
-		"github": {
-			"release": true
-		},
-		"npm": {
-			"publish": true
-		}
-	},
 	"publishConfig": {
     "access": "public"
   }
