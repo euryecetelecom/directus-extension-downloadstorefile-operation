@@ -1,4 +1,4 @@
-# directus-extension-downloadstorefile
+# directus-extension-downloadstorefile-operation
 Directus flows operation extension allowing to download and save external files.
 
 Authentication via headers is supported.
@@ -13,6 +13,6 @@ https://docs.directus.io/extensions/creating-extensions.html
 
 ## Install:
 ```
-pnpm install directus-extension-downloadstorefile
+pnpm install directus-extension-downloadstorefile-operation
 ```
 https://docs.directus.io/extensions/installing-extensions.html
