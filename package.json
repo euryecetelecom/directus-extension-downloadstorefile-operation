@@ -1,5 +1,5 @@
 {
-	"name": "directus-extension-turlututuchapeaupointu",
+	"name": "directus-extension-operation_download_store_file",
 	"description": "Directus extension used to add a download and store file operation to flows",
 	"icon": "extension",
 	"license": "MIT",
