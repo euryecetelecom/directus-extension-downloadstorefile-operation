@@ -39,9 +39,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/euryecetelecom/directus-extension-downloadstorefile.git"
+		"url": "git+https://github.com/euryecetelecom/directus-extension-downloadstorefile-operation.git"
 	},
-	"homepage": "https://github.com/euryecetelecom/directus-extension-downloadstorefile-file",
+	"homepage": "https://github.com/euryecetelecom/directus-extension-downloadstorefile-operation",
 	"release-it": {
 		"github": {
 			"release": true
