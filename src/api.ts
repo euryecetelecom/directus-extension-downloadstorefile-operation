@@ -70,7 +70,14 @@ export default defineOperationApi<Options>({
 					title: fileName,
 					type: response.headers['content-type'],
 				};
-				primaryKey = await filesService.uploadOne(response.data, metaData);
+				if(response && response.data){
+					primaryKey = await filesService.uploadOne(response.data, metaData);
+					if(!primaryKey){
+						throw("No response from Directus Upload / Store operation")
+					}
+				}else{
+					throw("No response from Download operation: " + response)
+				}
 			});
 			return primaryKey;
 		} catch (error: unknown) {

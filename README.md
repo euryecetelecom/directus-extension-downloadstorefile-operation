@@ -11,8 +11,15 @@ npm run dev
 ```
 https://docs.directus.io/extensions/creating-extensions.html
 
+## Publish:
+```
+npm run build && npm publish
+```
+https://docs.directus.io/extensions/creating-extensions.html
+
 ## Install:
 ```
 pnpm install directus-extension-downloadstorefile-operation
 ```
 https://docs.directus.io/extensions/installing-extensions.html
+
