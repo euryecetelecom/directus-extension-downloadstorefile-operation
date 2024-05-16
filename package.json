@@ -3,7 +3,7 @@
 	"description": "Directus extension used to add a download and store file operation to flows",
 	"icon": "extension",
 	"license": "MIT",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"author": "Euryece Telecom",
 	"keywords": [
 		"directus",
