@@ -3,7 +3,7 @@
 	"description": "Directus extension used to add a download and store file operation to flows",
 	"icon": "extension",
 	"license": "MIT",
-	"version": "1.0.5",
+	"version": "1.1.0",
 	"author": "Euryece Telecom",
 	"keywords": [
 		"directus",
@@ -24,7 +24,7 @@
 			"app": "src/app.ts",
 			"api": "src/api.ts"
 		},
-		"host": "^10.10.0"
+		"host": "^11.4.0"
 	},
 	"scripts": {
 		"build": "directus-extension build",
@@ -32,10 +32,10 @@
 		"link": "directus-extension link"
 	},
 	"devDependencies": {
-		"@directus/extensions-sdk": "11.0.1",
-		"@types/node": "^20.11.25",
-		"typescript": "^5.4.2",
-		"vue": "^3.4.21"
+		"@directus/extensions-sdk": "^13.0.3",
+		"@types/node": "^22.13.10",
+		"typescript": "^5.8.2",
+		"vue": "^3.5.13"
 	},
 	"repository": {
 		"type": "git",
