@@ -19,7 +19,10 @@ jobs:
         with:
           node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install -g npm
+      # Temp fix / workaround for nodejs bug - https://github.com/npm/cli/issues/9151
+      # - run: npm install -g npm
+      - run: npm install -g npm@10.9.8 && npm install -g npm@latest
+
       - run: npm install
       - run: npm run build
       - run: npm publish --provenance --access public
